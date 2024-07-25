@@ -17,7 +17,7 @@ shp_dir = 'E:/Caiwang_ZHENG/Strawberry_Dry_Biomass_Prediction_2021_To_2022/data_
 vi_dir = 'E:/Caiwang_ZHENG/Strawberry_Dry_Biomass_Prediction_2021_To_2022/data_2020_to_2021/train_samples_images/UTM/vi_tif/'
 csv_dir = 'E:/Caiwang_ZHENG/Strawberry_Dry_Biomass_Prediction_2021_To_2022/data_2020_to_2021/train_samples_images/UTM/vi_csv/'
 
-# paths = os.walk(r'./test')
+# in the vi_dir, it has multiple folders, each folder represents one date and has multiple VIs files 
 
 paths = os.walk(vi_dir)
 
